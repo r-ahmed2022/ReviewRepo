@@ -1,0 +1,30 @@
+{
+  "name": "reviewrepo",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/r-ahmed2022/Youtube-Clone/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ahmed2022/ReviewRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-ahmed2022/ReviewRepo/issues"
+  },
+  "homepage": "https://github.com/r-ahmed2022/ReviewRepo#readme",
+  "devDependencies": {
+    "hint": "^6.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "lighthouse": "^9.5.0"
+  }
+}
