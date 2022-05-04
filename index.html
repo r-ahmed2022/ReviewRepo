@@ -1,7 +1,6 @@
-
-<html>
+<!DOCTYPE html>
 <head>
-
+<title>Portfolio</title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/sliding-menu.css">
@@ -14,12 +13,12 @@
   <div id="container">
   <nav class="navbar" >
   <div class="left">
-  <a class="menu-link" target="_blank" onclick="openSlidingDiv()"><i id="menu" class="material-icons">menu</i></a>
-  <img class="logo" src="images/YouTube-Logo.png"/>
+  <a class="menu-link" href="#" target="_blank" onclick="openSlidingDiv()"><i id="menu" class="material-icons">menu</i></a>
+  <img class="logo" src="images/YouTube-Logo.png" alt="Youtube logo"/>
   </div>
    <!-- start of sliding menu -->
    <div id="sliding-menu-items" class="sliding-div">
-                <img class="logo" src="images/YouTube-Logo.png"/>
+                <img class="logo" src="images/YouTube-Logo.png" alt="video thumbnail"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeSlidingDiv()">&times;</a>
                 <div class="sliding-content">
                   <div class="sliding-menu">
@@ -48,25 +47,24 @@
      <i class="material-icons">notifications</i>
      <i class="material-icons display-this">account_circle</i>
   </div>
-
   </nav>
   <div class="main-content">
   <div class="left-content">
-  <iframe id="main-player" width="750px" height="450px" src="https://www.youtube.com/embed/3RjQznt-8kE" title="YouTube video player"
+  <iframe id="main-player" width="750" height="450" src="https://www.youtube.com/embed/3RjQznt-8kE" title="YouTube video player"
    frameborder="0" allow="accelerometer;  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
    allowfullscreen></iframe>
    <h2 class="main-video-desc">Description of the video </h2>
   </div>
   <div class="right-content">
   <div id="top">
-  <img id="ads" src="images/ad-1.jpg" height="100px"/>
-  <h4> Macdonald's burger</<h4>
+  <img id="ads" src="images/ad-1.jpg" alt="youtube thumnbnail" height="100"/>
+  <h4> Macdonald's burger</h4>
   </div>
   <div class="bottom">
     <div class="video-playlist">
     <div class="v-1">
     <div class="thumb" onClick="document.getElementById('main-player').src='https://www.youtube.com/embed/3RjQznt-8kE'">
-   	<img src="images\3RjQznt-8kE&t=8s.jpg"/>
+   	<img src="images/3RjQznt-8kE&t=8s.jpg" alt="youtube-thumbnail"/>
    </div>
    <div class="desc">
    <p>Git & GitHub Tutorial for Beginners #1 - Why Use Git? </p>
@@ -74,7 +72,7 @@
    </div>
    <div class="v-1">
    <div class="thumb" onClick="document.getElementById('main-player').src='https://www.youtube.com/embed/MFtsLRphqDM'">
-   <img src="images\MFtsLRphqDM.jpg"/>
+   <img src="images/MFtsLRphqDM.jpg" alt="thumbnail"/>
   </div>
   <div class="desc">
   <p>Git & GitHub Tutorial for Beginners #2 - Installing Git </p>
@@ -82,7 +80,7 @@
   </div>
   <div class="v-1">
   <div class="thumb" onClick="document.getElementById('main-player').src=' https://www.youtube.com/embed/iNP_KmOFqXs' ">
-  <img src="images\iNP_KmOFqXs.jpg"/>
+  <img src="images/iNP_KmOFqXs.jpg" alt="youtube thumbnail"/>
  </div>
  <div class="desc">
   <p> Git & GitHub Tutorial for Beginners #3 - How Git Works </p>
@@ -90,11 +88,8 @@
  </div>
 </div>
   </div>
-  <div>
-
-
-  </div>
-  </div>
+   </div>
+   </div>
    <script src="js/sliding-menu.js"></script>
    <script src="js/ads.js"></script>
 </body>
